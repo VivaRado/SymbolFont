@@ -1,0 +1,16 @@
+# .gitignore
+_README/__pycache__/
+_README/addons/
+_README/lang/
+_README/Lib/
+_README/*.py
+_README/*.txt
+_README/version
+_README/*.html
+_README/*.sh
+_README/assets/css/
+_README/assets/fonts/
+_README/assets/js/
+_README/assets/vendor/
+geckodriver.log
+package-lock.json
