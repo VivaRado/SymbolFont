@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # SymbolFont 0.6.0
-# python3 SF_gen.py -s '/media/root/2e8bc55c-ed6f-46ce-9ad9-996aa9703e0c/320/_code/symbolfont/bin/opentype-svg/fonts/SVGs'
+# python3 SF_gen.py -s '/SVGs'
 
 __doc__="""\
 Generates OTF SymbolFont using SVG Ligature Files.
