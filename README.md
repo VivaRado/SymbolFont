@@ -54,7 +54,6 @@ SymbolFont is a method of publishing symbols universally accessible through liga
 ### **Design**
 
 
-
 SymbolFont is designed to export symbols from a vector file into individual SVG files and compile them into a font. The file names of those SVG files are the ligatures you will need to use in order to access them on your website, after you successfully declare the font with ```@font-face``` and activate ```font-feature-settings:"liga"``` on the element with the ligature text.
 
 It consists of the **SF\_AI\_Exporter.jsx** to export SVG icons from illustrator (more vector editors should be added) and the **SF\_gen.py** that will take care of taking those SVGs and turning them into a ligature Opentype (OTF) font.
@@ -155,7 +154,6 @@ The **SF\_gen** is a Python script that generates an OpenType (OTF) font file us
 ### **Installation**
 
 
-
 To install:
 
 ```
@@ -165,7 +163,6 @@ pip install -r Lib/requirements.txt
 ---
 
 ### **Generation**
-
 
 
 To Generate a ligature font from SVGs:
@@ -189,7 +186,6 @@ python SF_gen.py -s <folder_path>
 ---
 
 ### **Usage**
-
 
 
 To use the fonts, there is a simple example ```Source/fonts/example.html```. The document has to link the font with font-face in CSS and enable ligatures on the element that includes the desired text.
@@ -230,7 +226,6 @@ To use the fonts, there is a simple example ```Source/fonts/example.html```. The
 ### **Glossary**
 
 
-
 BUMP
 
 ---
@@ -239,10 +234,10 @@ BUMP
 ### **Reference**
 
 
-
 [**fontTools**](https://pypi.org/project/fonttools/)
 
 
 [**svg.path**](https://pypi.org/project/svg.path/)
 
 ---
+
